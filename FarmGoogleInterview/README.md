@@ -1,0 +1,4 @@
+This is my approach to a problem showed in a Google Mock Interview Video. The candidate is asked to find the bigger square submatrix of all 1s in a binary matrix. I think this project is more easily solved using math, more precisely the algorithm used to find the rank of a matrix. Surely this isn't the most efficient way but I think the logic is simpler when you apply math instead of creating an alternative approach in your head.
+
+App.java is the main method where code.java and matrixGen.java methods are called. code is where the logic resides, and matrixGen is an AI-generated method to
+generate a huge matrix with squares of 1s inside. I recommend keeping code's comments off unless dealing with a small matrix, as the profiling output can be bigger than expected.
